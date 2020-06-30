@@ -71,8 +71,6 @@
     /**
      * Variables.
      */
-    var contextMenuClassName = "context-menu";
-    var contextMenuItemClassName = "context-menu__item";
     var contextMenuLinkClassName = "context-menu__link";
     var contextMenuActive = "context-menu--active";
 
@@ -84,13 +82,9 @@
     var clickCoordsY;
 
     var menu = document.querySelector("#context-menu");
-    var menuItems = menu.querySelectorAll(".context-menu__item");
     var menuState = 0;
     var menuWidth;
     var menuHeight;
-    var menuPosition;
-    var menuPositionX;
-    var menuPositionY;
 
     var windowWidth;
     var windowHeight;
