@@ -145,11 +145,11 @@ img {
     border-color: white;
     top: 100px;
     left: 150px;
-    color: white;
+    color: red;
 }
 
 #draggable div {
-    color: white;
+    color: red;
     cursor: pointer"
 }
 
@@ -157,4 +157,9 @@ img {
     position: absolute;
     top: 100px;
     left: 150px;
+}
+
+.rectangle {
+    border: 1px solid #FF0000;
+    position: absolute;
 }

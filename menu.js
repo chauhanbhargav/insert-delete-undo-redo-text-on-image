@@ -221,10 +221,3 @@
     init();
 
 })();
-
-// function doAction(action) {
-//     console.log('Action---->', action);
-//     setTimeout(() => {
-//         contextListener1();
-//     }, 1000);
-// }
